@@ -8,6 +8,7 @@
    "title": "GPS-iMOD",
    "doc": "GPS-041-11-R23-iMOD-IOM",
    "match": "\\biMod\\b|^MOD-|\\bMOD-\\d|iMOD-PS",
+   "section": "iom",
    "pageCount": 20
   },
   {
@@ -15,6 +16,7 @@
    "title": "GPS-FC24-AC",
    "doc": "GPS-041-14-R22-FC24-IOM",
    "match": "\\bFC\\s?-?24\\b",
+   "section": "iom",
    "pageCount": 6
   },
   {
@@ -22,6 +24,7 @@
    "title": "GPS-FC48-AC",
    "doc": "GPS-041-15-R22-FC48-IOM",
    "match": "\\bFC\\s?-?48\\b",
+   "section": "iom",
    "pageCount": 4
   },
   {
@@ -29,6 +32,7 @@
    "title": "GPS-DM48-AC",
    "doc": "GPS-041-12-R22-DM48-IOM",
    "match": "\\bDM\\s?-?48\\b",
+   "section": "iom",
    "pageCount": 5
   },
   {
@@ -36,6 +40,7 @@
    "title": "GPS-DM-2",
    "doc": "GPS-041-26-R22-DM2-IOM",
    "match": "\\bDM\\s?-?2\\b(?!\\d)",
+   "section": "iom",
    "pageCount": 10
   },
   {
@@ -43,6 +48,7 @@
    "title": "GPS-DMS",
    "doc": "GPS-041-30-R22-DMS-IOM",
    "match": "\\bDM\\s?-?S\\b",
+   "section": "iom",
    "pageCount": 8
   },
   {
@@ -50,6 +56,7 @@
    "title": "GPS-FC-3 / FC-3T-BAS",
    "doc": "GPS-041-16-R21-FC3-IOM",
    "match": "\\bFC\\s?-?3T?\\s?-?BAS\\b|\\bFC3T",
+   "section": "iom",
    "pageCount": 7
   },
   {
@@ -57,6 +64,7 @@
    "title": "GPS-iRib",
    "doc": "GPS-041-13-R21-iRIB-IOM",
    "match": "\\biRib\\b",
+   "section": "iom",
    "pageCount": 5
   },
   {
@@ -64,6 +72,7 @@
    "title": "GPS-CI-2",
    "doc": "GPS-041-28-R24-CI2-IOM",
    "match": "\\bCI\\s?-?2\\b",
+   "section": "iom",
    "pageCount": 7
   },
   {
@@ -71,6 +80,7 @@
    "title": "GPS-PS-2 power supply",
    "doc": "GPS-041-31-R21-PS2-IOM",
    "match": "\\bPS\\s?-?2\\b",
+   "section": "iom",
    "pageCount": 8
   },
   {
@@ -78,6 +88,7 @@
    "title": "GPS-IDF-2",
    "doc": "GPS-066-11-R24-IDF2-IOM",
    "match": "\\bIDF\\s?-?2\\b",
+   "section": "iom",
    "pageCount": 9
   },
   {
@@ -85,6 +96,7 @@
    "title": "GPS PF-e",
    "doc": "GPS-070-11-R22-PFe-IOM",
    "match": "\\bPF\\s?-?E\\b",
+   "section": "iom",
    "pageCount": 8
   },
   {
@@ -92,13 +104,15 @@
    "title": "GPS PF-i",
    "doc": "GPS-070-12-R22-PFi-IOM",
    "match": "\\bPF\\s?-?I\\b",
+   "section": "iom",
    "pageCount": 6
   },
   {
    "id": "siaq500",
    "title": "smartIAQ SIAQ-500 (Centralized / Distributed / Performance)",
    "doc": "GPS-041-37-R21-S5P-IOM",
-   "match": "sIAQ\\d?-(?:CENT|DIST|PERF)|smartIAQ\\s*-\\s*(?:Centralized|Distributed|Performance)|SIAQ-?500",
+   "match": "\\bsIAQ1?-(?:CENT|DIST|PERF)|smartIAQ\\s*-\\s*(?:Centralized|Distributed|Performance)|SIAQ-?500",
+   "section": "iom",
    "pageCount": 15
   },
   {
@@ -106,6 +120,7 @@
    "title": "smartIAQ GridSet / GridSet Pro",
    "doc": "GPS-041-39-R23-GS-IOM",
    "match": "^(?!.*(?:Hard Ceiling|Low[- ]?Profile|SGSPL|GSHC)).*(?:GridSet|\\bSGS)",
+   "section": "iom",
    "pageCount": 18
   },
   {
@@ -113,6 +128,7 @@
    "title": "smartIAQ GridSet, hard-ceiling mount",
    "doc": "GPS-041-41-R20-GSHC-IOM",
    "match": "Hard Ceiling|Low[- ]?Profile|SGSPL|GSHC",
+   "section": "iom",
    "pageCount": 18
   },
   {
@@ -120,6 +136,7 @@
    "title": "smartIAQ Hub-4 / Hub-4 Pro",
    "doc": "GPS-041-40-R22-H4-IOM",
    "match": "Hub-?4|\\bHB4|GridSet|\\bSGS",
+   "section": "iom",
    "pageCount": 9
   },
   {
@@ -127,6 +144,7 @@
    "title": "GPS-iMeasure",
    "doc": "GPS-041-21-R22-iM-IOM",
    "match": "iMeasure(?!\\s?-?D\\b)",
+   "section": "iom",
    "pageCount": 4
   },
   {
@@ -134,6 +152,7 @@
    "title": "GPS-iMeasure-D",
    "doc": "GPS-041-20-R22-iMD-IOM",
    "match": "iMeasure\\s?-?D\\b|\\biMD\\b",
+   "section": "iom",
    "pageCount": 5
   },
   {
@@ -141,7 +160,208 @@
    "title": "GPS-iDetect-P",
    "doc": "GPS-041-19-R22-iDP-IOM",
    "match": "iDetect|\\biDP\\b",
+   "section": "iom",
    "pageCount": 5
+  },
+  {
+   "id": "ds-imod",
+   "title": "GPS-iMOD Data Sheet",
+   "doc": "GPS-040-11-R22-iMOD",
+   "match": "\\biMod\\b|^MOD-|\\bMOD-\\d|iMOD-PS",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-fc24",
+   "title": "GPS-FC24-AC Data Sheet",
+   "doc": "GPS-040-14-R21-FC24",
+   "match": "\\bFC\\s?-?24\\b",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-fc48",
+   "title": "GPS-FC48-AC Data Sheet",
+   "doc": "GPS-040-15-R21-FC48",
+   "match": "\\bFC\\s?-?48\\b",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-dm48",
+   "title": "GPS-DM48-AC Data Sheet",
+   "doc": "GPS-040-12-R21-DM48",
+   "match": "\\bDM\\s?-?48\\b",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-dm2",
+   "title": "GPS-DM-2 Data Sheet",
+   "doc": "GPS-040-26-R23-DM2",
+   "match": "\\bDM\\s?-?2\\b(?!\\d)",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-dms",
+   "title": "GPS-DMS Data Sheet",
+   "doc": "GPS-040-30-R20-DMS",
+   "match": "\\bDM\\s?-?S\\b",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-fc3",
+   "title": "GPS-FC-3 / FC-3T-BAS Data Sheet",
+   "doc": "GPS-040-16-R20-FC3",
+   "match": "\\bFC\\s?-?3T?(?:\\s?-?BAS)?\\b(?!\\d)",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-irib",
+   "title": "GPS-iRib Data Sheet",
+   "doc": "GPS-040-13-R21-iRIB",
+   "match": "\\biRib\\b",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-ci2",
+   "title": "GPS-CI-2 Data Sheet",
+   "doc": "GPS-040-28-R21-CI2",
+   "match": "\\bCI\\s?-?2\\b",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-ps2",
+   "title": "GPS-PS-2 Power Supply Data Sheet",
+   "doc": "GPS-040-31-R21-PS2",
+   "match": "\\bPS\\s?-?2\\b",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-idf2",
+   "title": "GPS-IDF-2 Data Sheet",
+   "doc": "GPS-065-11-R25-IDF2",
+   "match": "\\bIDF\\s?-?2\\b",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-pfe",
+   "title": "GPS PF-e Self-Cleaning Filter Enhancement Data Sheet",
+   "doc": "GPS-071-11-R20-PFE",
+   "match": "\\bPF\\s?-?E\\b",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-pfi",
+   "title": "GPS PF-i Self-Cleaning Filter Enhancement Data Sheet",
+   "doc": "GPS-071-12-R20-PFI",
+   "match": "\\bPF\\s?-?I\\b",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-siaq-cent",
+   "title": "smartIAQ Centralized (SIAQ1-CENT) Data Sheet",
+   "doc": "GPS-040-41-R28-S1C",
+   "match": "\\bsIAQ\\d?-CENT|smartIAQ\\s*-\\s*Centralized",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-siaq-dist",
+   "title": "smartIAQ Distributed (SIAQ1-DIST) Data Sheet",
+   "doc": "GPS-040-38-R36-S1D",
+   "match": "^(?![\\s\\S]*(?:GridSet|\\bsIAQ[23]-|Low[- ]?Profile|Hard Ceiling))[\\s\\S]*(?:\\bsIAQ1?-DIST|smartIAQ\\s*-\\s*Distributed)",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-siaq-perf",
+   "title": "smartIAQ Performance (SIAQ1-PERF) Data Sheet",
+   "doc": "GPS-040-42-R27-S1P",
+   "match": "\\bsIAQ\\d?-PERF|smartIAQ\\s*-\\s*Performance",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-gridset",
+   "title": "smartIAQ GridSet Data Sheet",
+   "doc": "GPS-040-47-R26-SGS",
+   "match": "^(?![\\s\\S]*(?:Hard Ceiling|Low[- ]?Profile|SGSPL|GSHC|\\bsIAQ3-|GridSet\\s?-?Pro|\\bSGSP\\b|HB4P|HBP4|-BN\\b|Cable))[\\s\\S]*(?:GridSet|\\bSGS\\b|\\bsIAQ2-DIST)",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-gridset-pro",
+   "title": "smartIAQ GridSet Pro Data Sheet",
+   "doc": "GPS-040-49-R25-SGSP",
+   "match": "^(?![\\s\\S]*(?:Hard Ceiling|Low[- ]?Profile|SGSPL|GSHC|\\bsIAQ3-|Cable|Hub-?4))(?=[\\s\\S]*(?:GridSet|\\bSGSP?\\b|\\bsIAQ2-DIST))(?=[\\s\\S]*(?:\\bPro\\b|\\bSGSP\\b|-BN\\b))",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-gridset-lp",
+   "title": "smartIAQ GridSet Pro Low-Profile (Hard Ceiling) Data Sheet",
+   "doc": "GPS-040-53-R22-SGSPL",
+   "match": "^(?![\\s\\S]*(?:Cable|Hub-?4))[\\s\\S]*(?:Hard Ceiling|Low[- ]?Profile|\\bSGSPL\\b|\\bGSHC\\b|\\bsIAQ3-DIST)",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-hub4",
+   "title": "smartIAQ Hub-4 Data Sheet",
+   "doc": "GPS-040-50-R23-SH4",
+   "match": "^(?![\\s\\S]*(?:\\bPro\\b|HB4P|HBP4|\\bSGSP|-BN\\b|Low[- ]?Profile|Hard Ceiling|\\bsIAQ3-|Cable))[\\s\\S]*(?:Hub-?4|\\bHB4\\b|GridSet|\\bSGS\\b|\\bsIAQ2-DIST)",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-hub4pro",
+   "title": "smartIAQ Hub-4 Pro Data Sheet",
+   "doc": "GPS-040-51-R23-SH4P",
+   "match": "^(?![\\s\\S]*Cable)(?=[\\s\\S]*(?:Hub-?4|\\bHB4P?\\b|\\bHBP4|GridSet|\\bSGSP?L?\\b|\\bsIAQ[23]-DIST|Low[- ]?Profile|Hard Ceiling))(?=[\\s\\S]*(?:\\bPro\\b|HB4P|HBP4|\\bSGSPL?\\b|-BN\\b|Low[- ]?Profile|Hard Ceiling|\\bsIAQ3-))",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-gridset-cable",
+   "title": "smartIAQ GridSet Power & Communication Cable Data Sheet",
+   "doc": "GPS-040-52-R20-SGSC",
+   "match": "(?:GridSet|smartIAQ|\\bsIAQ)[\\s\\S]*Cable|\\bSGSC\\b",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-imeasure",
+   "title": "GPS-iMeasure Data Sheet",
+   "doc": "GPS-040-21-R20-iM",
+   "match": "iMeasure(?!\\s?-?D\\b)",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-imeasure-d",
+   "title": "GPS-iMeasure-D Data Sheet",
+   "doc": "GPS-040-20-R20-iMD",
+   "match": "iMeasure\\s?-?D\\b|\\biMD\\b",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-idetect",
+   "title": "GPS-iDetect-P Data Sheet",
+   "doc": "GPS-040-19-R20-iDP",
+   "match": "iDetect|\\biDP\\b",
+   "section": "datasheets",
+   "pageCount": 1
   }
  ]
 }

@@ -8,6 +8,7 @@
    "title": "Aluminum Control Dampers (1000, 1500, 9000 series)",
    "doc": "TA-IOM-CD-24",
    "match": "\\b(?:1000|1500|9000)\\b(?!\\s*-?\\s*SM\\b)",
+   "section": "iom",
    "pageCount": 12
   },
   {
@@ -15,6 +16,7 @@
    "title": "Heavy-Duty Control Dampers (Series 8800)",
    "doc": "TA-IOM-HDCD-24",
    "match": "\\b8800\\b",
+   "section": "iom",
    "pageCount": 6
   },
   {
@@ -22,6 +24,7 @@
    "title": "Medium-Duty Backdraft Dampers (7000, 7100 series)",
    "doc": "TA-IOM-BDD-25",
    "match": "\\b7[01]00\\b",
+   "section": "iom",
    "pageCount": 8
   },
   {
@@ -29,6 +32,7 @@
    "title": "Heavy-Duty Backdraft Dampers (Series 7600)",
    "doc": "TA-IOM-HDBD-24",
    "match": "\\b7600\\b",
+   "section": "iom",
    "pageCount": 8
   },
   {
@@ -36,6 +40,7 @@
    "title": "Horizontal Jackshaft",
    "doc": "TA-IOM-JSH-24",
    "match": "jack\\s*shaft",
+   "section": "iom",
    "pageCount": 6
   },
   {
@@ -43,6 +48,7 @@
    "title": "Vertical Jackshaft",
    "doc": "TA-IOM-JSV-24",
    "match": "vertical\\s*jack\\s*shaft",
+   "section": "iom",
    "pageCount": 2
   },
   {
@@ -50,6 +56,7 @@
    "title": "Damper Jumpers",
    "doc": "TA-IOM-JP-24",
    "match": "jumper",
+   "section": "iom",
    "pageCount": 2
   },
   {
@@ -57,6 +64,7 @@
    "title": "Smoke Dampers (Series 1000 SM)",
    "doc": "TA-IOM-SM-24",
    "match": "\\b1000\\s*-?\\s*SM\\b",
+   "section": "iom",
    "pageCount": 6
   },
   {
@@ -64,6 +72,175 @@
    "title": "Smoke Damper Jumpers",
    "doc": "TA-IOM-JPSM-24",
    "match": "\\b1000\\s*-?\\s*SM\\b[\\s\\S]*jumper|jumper[\\s\\S]*\\b1000\\s*-?\\s*SM\\b",
+   "section": "iom",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-1000",
+   "title": "Series 1000 Low Leakage Air-Foil Control Damper",
+   "doc": "TA-1000-TECH-24 (01/2024)",
+   "match": "\\b1000\\b(?!\\s*-?\\s*(?:SM|FB|MZ)\\b)",
+   "section": "datasheets",
+   "pageCount": 11
+  },
+  {
+   "id": "ds-1000sm",
+   "title": "Series 1000 SM Two-Position Smoke Damper",
+   "doc": "TA-1000SM-TECH-24",
+   "match": "\\b1000\\s*-?\\s*SM\\b(?!\\s*-?\\s*M\\b)",
+   "section": "datasheets",
+   "pageCount": 6
+  },
+  {
+   "id": "ds-1000smm",
+   "title": "Series 1000 SM-M Modulating Smoke Damper",
+   "doc": "TA-1000SM-M-TECH-24",
+   "match": "\\b1000\\s*-?\\s*SM\\s*-?\\s*M\\b",
+   "section": "datasheets",
+   "pageCount": 6
+  },
+  {
+   "id": "ds-1500",
+   "title": "Series 1500 Ultra-Low Leakage Enhanced Air-Foil Control Damper",
+   "doc": "TA-1500-TECH-24",
+   "match": "\\b1500\\b(?!\\s*-?\\s*FB\\b)",
+   "section": "datasheets",
+   "pageCount": 8
+  },
+  {
+   "id": "ds-9000",
+   "title": "Series 9000 Thermally Insulated Damper (Thermally Broken Blades)",
+   "doc": "TA-9000-TECH-24",
+   "match": "\\b9000\\b(?!\\s*-?\\s*(?:BF|FB)\\b)",
+   "section": "datasheets",
+   "pageCount": 12
+  },
+  {
+   "id": "ds-9000bf",
+   "title": "Series 9000 BF Thermally Insulated Damper (Thermally Broken Frame & Blades)",
+   "doc": "TA-9000BF-TECH-24",
+   "match": "\\b9000\\s*-?\\s*BF\\b",
+   "section": "datasheets",
+   "pageCount": 8
+  },
+  {
+   "id": "ds-1000fb",
+   "title": "Series 1000 FB Low Leakage Face & Bypass Damper",
+   "doc": "TA-1000FB-TECH-24",
+   "match": "\\b1000\\s*-?\\s*FB\\b",
+   "section": "datasheets",
+   "pageCount": 8
+  },
+  {
+   "id": "ds-1500fb",
+   "title": "Series 1500 FB Ultra-Low Leakage Face & Bypass Damper",
+   "doc": "TA-1500FB-TECH-24",
+   "match": "\\b1500\\s*-?\\s*FB\\b",
+   "section": "datasheets",
+   "pageCount": 6
+  },
+  {
+   "id": "ds-9000fb",
+   "title": "Series 9000 FB Thermally Insulated Face & Bypass Damper",
+   "doc": "TA-9000FB-TECH-24",
+   "match": "\\b9000\\s*-?\\s*FB\\b",
+   "section": "datasheets",
+   "pageCount": 6
+  },
+  {
+   "id": "ds-8800",
+   "title": "Series 8800 Heavy-Duty Air-Foil Control Damper",
+   "doc": "TA-8800-TECH-24",
+   "match": "\\b8800\\b",
+   "section": "datasheets",
+   "pageCount": 6
+  },
+  {
+   "id": "ds-7000",
+   "title": "Series 7000 Medium-Duty Backdraft Damper",
+   "doc": "TA-7000-TECH-24",
+   "match": "\\b7000\\b(?!\\s*-?\\s*(?:CW|WT)\\b)",
+   "section": "datasheets",
+   "pageCount": 6
+  },
+  {
+   "id": "ds-7000cw",
+   "title": "Series 7000 CW Medium-Duty Adjustable Counterweighted Backdraft Damper",
+   "doc": "TA-7000CW-TECH-24",
+   "match": "\\b7000\\s*-?\\s*CW\\b",
+   "section": "datasheets",
+   "pageCount": 6
+  },
+  {
+   "id": "ds-7000wt",
+   "title": "Series 7000 WT Medium-Duty Adjustable Weighted Backdraft Damper",
+   "doc": "TA-7000WT-TECH-24",
+   "match": "\\b7000\\s*-?\\s*WT\\b",
+   "section": "datasheets",
+   "pageCount": 6
+  },
+  {
+   "id": "ds-7100cw",
+   "title": "Series 7100 CW Linkage-Free Counterweighted Backdraft Damper",
+   "doc": "TA-7100CW-TECH-25",
+   "match": "\\b7100\\b",
+   "section": "datasheets",
+   "pageCount": 6
+  },
+  {
+   "id": "ds-7600",
+   "title": "Series 7600 Heavy-Duty Backdraft Damper",
+   "doc": "TA-7600-TECH-24",
+   "match": "\\b7600\\b(?!\\s*-?\\s*(?:CWA?|WT)\\b)",
+   "section": "datasheets",
+   "pageCount": 6
+  },
+  {
+   "id": "ds-7600cw",
+   "title": "Series 7600 CW Internally Counterweighted Heavy-Duty Backdraft Damper",
+   "doc": "TA-7600CW-TECH-24",
+   "match": "\\b7600\\s*-?\\s*CW\\b",
+   "section": "datasheets",
+   "pageCount": 6
+  },
+  {
+   "id": "ds-7600cwa",
+   "title": "Series 7600 CWA Adjustable Counterweighted Heavy-Duty Backdraft Damper",
+   "doc": "TA-7600CWA-TECH-24",
+   "match": "\\b7600\\s*-?\\s*CWA\\b",
+   "section": "datasheets",
+   "pageCount": 6
+  },
+  {
+   "id": "ds-7600wt",
+   "title": "Series 7600 WT Adjustable Weighted Heavy-Duty Backdraft Damper",
+   "doc": "TA-7600WT-TECH-24",
+   "match": "\\b7600\\s*-?\\s*WT\\b",
+   "section": "datasheets",
+   "pageCount": 6
+  },
+  {
+   "id": "ds-jsh",
+   "title": "Horizontal Jackshafts",
+   "doc": "TA-JSH-TECH-24",
+   "match": "jack\\s*shaft",
+   "section": "datasheets",
+   "pageCount": 6
+  },
+  {
+   "id": "ds-jsv",
+   "title": "Vertical Jackshafts",
+   "doc": "TA-JSV-TECH-24",
+   "match": "vertical\\s*jack\\s*shaft",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-jp",
+   "title": "Jumpers for Multiple-Section Dampers",
+   "doc": "TA-JP-TECH-24",
+   "match": "jumper",
+   "section": "datasheets",
    "pageCount": 2
   }
  ]

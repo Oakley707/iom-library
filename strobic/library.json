@@ -8,6 +8,7 @@
    "title": "Tri-Stack Exhaust System",
    "doc": "SA-TRISTACK-IOM-23",
    "match": "\\bM\\d{2}[A-F]\\d{2}[NS]\\d{3,4}I\\d|tri-?stack",
+   "section": "iom",
    "pageCount": 36
   },
   {
@@ -15,6 +16,7 @@
    "title": "Duo-Stack Exhaust System",
    "doc": "SA-DUOSTACK-IOM-26",
    "match": "\\bD\\d{2}B[IC]\\d{2}[NS]\\d{3,4}I\\d|duo-?stack",
+   "section": "iom",
    "pageCount": 36
   },
   {
@@ -22,6 +24,7 @@
    "title": "Mono-Stack Series (Arrangement 4)",
    "doc": "Mono-Stack IOM (legacy, undated)",
    "match": "\\bC\\d{2}B[IC]\\d{2}[NS]\\d{3,4}I\\d|mono-?stack",
+   "section": "iom",
    "pageCount": 13
   },
   {
@@ -29,6 +32,7 @@
    "title": "S.A.F.E. Controller",
    "doc": "SA-SAFE-IOM-23",
    "match": "S\\.?A\\.?F\\.?E\\.?\\s*control|smart\\s*system",
+   "section": "iom",
    "pageCount": 24
   },
   {
@@ -36,7 +40,123 @@
    "title": "Generation III Tri-Stack (legacy TS models)",
    "doc": "Rev. C 3/6/18",
    "match": "\\bTS\\s?\\d[SL]\\d{3}[A-D]\\d{2}\\b",
+   "section": "iom",
    "pageCount": 32
+  },
+  {
+   "id": "ds-tristack",
+   "title": "Tri-Stack Exhaust System",
+   "doc": "SA-TRISTACK-25 (issued 06/2025)",
+   "match": "\\bM\\d{2}[A-F]\\d{2}[NS]\\d{3,4}I\\d|\\bTS\\s?\\d[SL]\\d{3}[A-D]\\d{2}\\b|tri-?stack",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-duostack",
+   "title": "Duo-Stack Exhaust System",
+   "doc": "SA-DUOSTACK-26",
+   "match": "\\bD\\d{2}B[IC]\\d{2}[NS]\\d{3,4}I\\d|duo-?stack",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-duostack-tech",
+   "title": "Duo-Stack Engineering Data (AMCA, fan curve guideline, part numbers)",
+   "doc": "SA-DUOSTACK-TECH-26 (CF-DUOSTACK-TECH-26, issued 7/2026)",
+   "match": "\\bD\\d{2}B[IC]\\d{2}[NS]\\d{3,4}I\\d|duo-?stack",
+   "section": "datasheets",
+   "pageCount": 4
+  },
+  {
+   "id": "ds-monostack",
+   "title": "Mono-Stack Exhaust System",
+   "doc": "SA-MONOSTACK-25A",
+   "match": "\\bC\\d{2}B[IC]\\d{2}[NS]\\d{3,4}I\\d|mono-?stack",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-safe",
+   "title": "S.A.F.E. Controller",
+   "doc": "SA-SAFE-25",
+   "match": "S\\.?A\\.?F\\.?E\\.?\\s*control|smart\\s*system",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-coat-valspar",
+   "title": "Valspar PFY90001 Epoxy Primer",
+   "doc": "Valspar PFY90001 (05/17/2018), as issued in Strobic project submittals",
+   "match": "\\bM\\d{2}[A-F]\\d{2}[NS]\\d{3,4}I\\d|\\bTS\\s?\\d[SL]\\d{3}[A-D]\\d{2}\\b|tri-?stack|\\bD\\d{2}B[IC]\\d{2}[NS]\\d{3,4}I\\d|duo-?stack|\\bC\\d{2}B[IC]\\d{2}[NS]\\d{3,4}I\\d|mono-?stack",
+   "section": "coating",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-coat-powdura",
+   "title": "Powdura Polyester Urethane Powder Coat (CF Strobic Gray)",
+   "doc": "Sherwin-Williams Powdura KAS9V0004",
+   "match": "\\bM\\d{2}[A-F]\\d{2}[NS]\\d{3,4}I\\d|\\bTS\\s?\\d[SL]\\d{3}[A-D]\\d{2}\\b|tri-?stack|\\bD\\d{2}B[IC]\\d{2}[NS]\\d{3,4}I\\d|duo-?stack|\\bC\\d{2}B[IC]\\d{2}[NS]\\d{3,4}I\\d|mono-?stack",
+   "section": "coating",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-coat-drylac",
+   "title": "Tiger Drylac Series 49 Weather-Resistant Powder Coat (Plenum Exterior)",
+   "doc": "Tiger Drylac Series 49 (Strobic Air coating spec)",
+   "match": "\\bM\\d{2}[A-F]\\d{2}[NS]\\d{3,4}I\\d|\\bTS\\s?\\d[SL]\\d{3}[A-D]\\d{2}\\b|tri-?stack",
+   "section": "coating",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-iso-specd",
+   "title": "Isolation Damper Spec D (TAMCO Series 1000 Air-Foil, 6\" Frame, Epoxy Coated)",
+   "doc": "Strobic Spec D / TAMCO Series 1000",
+   "match": "\\bM\\d{2}[A-F]\\d{2}[NS]\\d{3,4}I\\d|\\bTS\\s?\\d[SL]\\d{3}[A-D]\\d{2}\\b|tri-?stack",
+   "section": "isodamper",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-iso-spect",
+   "title": "Isolation Damper Spec T (Arrow Model 56 Round Transition)",
+   "doc": "Arrow United DWG 40758 Rev C (10/15)",
+   "match": "\\bD\\d{2}B[IC]\\d{2}[NS]\\d{3,4}I\\d|duo-?stack|\\bC\\d{2}B[IC]\\d{2}[NS]\\d{3,4}I\\d|mono-?stack",
+   "section": "isodamper",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-isoact-nfbup",
+   "title": "Belimo NFBUP-S Spring-Return On/Off Actuator (Isolation Damper)",
+   "doc": "Belimo NFBUP/NFBUP-S catalog pp. 69-70",
+   "match": "\\bM\\d{2}[A-F]\\d{2}[NS]\\d{3,4}I\\d|\\bTS\\s?\\d[SL]\\d{3}[A-D]\\d{2}\\b|tri-?stack|\\bD\\d{2}B[IC]\\d{2}[NS]\\d{3,4}I\\d|duo-?stack|\\bC\\d{2}B[IC]\\d{2}[NS]\\d{3,4}I\\d|mono-?stack",
+   "section": "isoact",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-byp-speca",
+   "title": "Bypass Damper Spec A (TAMCO Series 1500 Enhanced Air-Foil, 6.5\" Frame)",
+   "doc": "Strobic Spec A / TAMCO Series 1500",
+   "match": "\\bD\\d{2}B[IC]\\d{2}[NS]\\d{3,4}I\\d|duo-?stack",
+   "section": "bypdamper",
+   "auto": false,
+   "pageCount": 2
+  },
+  {
+   "id": "ds-byp-arrow",
+   "title": "Bypass Louver & Damper (Arrow FS-401-HF Louver + OBDAF-207 Damper in Sleeve)",
+   "doc": "Arrow United DWG 35914 Rev A + FS-401 data",
+   "match": "\\bM\\d{2}[A-F]\\d{2}[NS]\\d{3,4}I\\d|\\bTS\\s?\\d[SL]\\d{3}[A-D]\\d{2}\\b|tri-?stack",
+   "section": "bypdamper",
+   "auto": false,
+   "pageCount": 6
+  },
+  {
+   "id": "ds-bypact-amb24",
+   "title": "Belimo AMB24-SR Proportional Actuator (Bypass Damper)",
+   "doc": "Belimo AMB24-SR data sheet (2026-07-24)",
+   "match": "\\bM\\d{2}[A-F]\\d{2}[NS]\\d{3,4}I\\d|\\bTS\\s?\\d[SL]\\d{3}[A-D]\\d{2}\\b|tri-?stack|\\bD\\d{2}B[IC]\\d{2}[NS]\\d{3,4}I\\d|duo-?stack",
+   "section": "bypact",
+   "auto": false,
+   "pageCount": 4
   }
  ]
 }
