@@ -725,91 +725,91 @@
   },
   {
    "id": "ds-gtx116e-p",
-   "title": "EBTRON Gold Series GTx116e-P Duct/Plenum Probe Overview",
-   "doc": "GTx116e-P Overview Overview",
+   "title": "EBTRON Gold Series GTx116e-P Duct/Plenum Probe Product Data",
+   "doc": "GTx116e-P Product Data Sheet Product Data Sheet",
    "match": "\\bGT[A-Z]116e?-P",
    "section": "datasheets",
-   "pageCount": 2
+   "pageCount": 16
   },
   {
    "id": "ds-gtx108e-f",
-   "title": "EBTRON Gold Series GTx108e-F Fan Inlet Overview",
-   "doc": "GTx108e-F Overview Overview",
+   "title": "EBTRON Gold Series GTx108e-F Fan Inlet Product Data",
+   "doc": "GTx108e-F Product Data Sheet Product Data Sheet",
    "match": "\\bGT[A-Z]108e?-F",
    "section": "datasheets",
-   "pageCount": 2
+   "pageCount": 9
   },
   {
    "id": "ds-htx116-p",
-   "title": "EBTRON Hybrid Series HTx116-P Duct/Plenum Probe Overview",
-   "doc": "HTx116-P Overview Overview",
+   "title": "EBTRON Hybrid Series HTx116-P Duct/Plenum Probe Product Data",
+   "doc": "HTx116-P Product Data Sheet Product Data Sheet",
    "match": "\\bHT[A-Z]116e?-P",
    "section": "datasheets",
-   "pageCount": 2
+   "pageCount": 16
   },
   {
    "id": "ds-htx104-p",
-   "title": "EBTRON Hybrid Series HTx104-P Duct/Plenum Probe Overview",
-   "doc": "HTx104-P Overview Overview",
+   "title": "EBTRON Hybrid Series HTx104-P Duct/Plenum Probe Product Data",
+   "doc": "HTx104-P Product Data Sheet Product Data Sheet",
    "match": "\\bHT[A-Z]104e?-P",
    "section": "datasheets",
-   "pageCount": 2
+   "pageCount": 10
   },
   {
    "id": "ds-htx104-f",
-   "title": "EBTRON Hybrid Series HTx104-F Fan Inlet Overview",
-   "doc": "HTx104-F Overview Overview",
+   "title": "EBTRON Hybrid Series HTx104-F Fan Inlet Product Data",
+   "doc": "HTx104-F Product Data Sheet Product Data Sheet",
    "match": "\\bHT[A-Z]104e?-F",
    "section": "datasheets",
-   "pageCount": 2
+   "pageCount": 7
   },
   {
    "id": "ds-htx104-t",
-   "title": "EBTRON Hybrid Series HTx104-T Single-Point Probe Overview",
-   "doc": "HTx104-T Overview Overview",
+   "title": "EBTRON Hybrid Series HTx104-T Single-Point Probe Product Data",
+   "doc": "HTx104-T Product Data Sheet Product Data Sheet",
    "match": "\\bHT[A-Z]104e?-T",
    "section": "datasheets",
-   "pageCount": 2
+   "pageCount": 7
   },
   {
    "id": "ds-htx104-b",
-   "title": "EBTRON Hybrid Series HTx104-B Bleed Sensor Overview",
-   "doc": "HTx104-B Overview Overview",
+   "title": "EBTRON Hybrid Series HTx104-B Bleed Sensor Product Data",
+   "doc": "HTx104-B Product Data Sheet Product Data Sheet",
    "match": "\\bHT[A-Z]104e?-B",
    "section": "datasheets",
-   "pageCount": 2
+   "pageCount": 7
   },
   {
    "id": "ds-ef-x1000-t",
-   "title": "EBTRON EB-Flow II EF-x1000-T (ELF) Overview",
-   "doc": "EF-x1000-T Overview Overview",
+   "title": "EBTRON EB-Flow II EF-x1000-T (ELF) Product Data",
+   "doc": "EF-x1000-T Product Data Sheet Product Data Sheet",
    "match": "\\bEF-[AN]1\\d{3}-T",
    "section": "datasheets",
-   "pageCount": 2
+   "pageCount": 7
   },
   {
    "id": "ds-ef-x2000-u",
-   "title": "EBTRON EB-Flow II EF-x2000-U Universal Probe Overview",
-   "doc": "EF-x2000-U Overview Overview",
+   "title": "EBTRON EB-Flow II EF-x2000-U Universal Probe Product Data",
+   "doc": "EF-x2000-U Product Data Sheet Product Data Sheet",
    "match": "\\bEF-[AN]2\\d{3}-U",
    "section": "datasheets",
-   "pageCount": 2
+   "pageCount": 8
   },
   {
    "id": "ds-ef-x2000-t",
-   "title": "EBTRON EB-Flow II EF-x2000-T Single-Point Probe Overview",
-   "doc": "EF-x2000-T Overview Overview",
+   "title": "EBTRON EB-Flow II EF-x2000-T Single-Point Probe Product Data",
+   "doc": "EF-x2000-T Product Data Sheet Product Data Sheet",
    "match": "\\bEF-[AN]2\\d{3}-T",
    "section": "datasheets",
-   "pageCount": 2
+   "pageCount": 7
   },
   {
    "id": "ds-ef-x2000-b",
-   "title": "EBTRON EB-Flow II EF-x2000-B Bleed Sensor Overview",
-   "doc": "EF-x2000-B Overview Overview",
+   "title": "EBTRON EB-Flow II EF-x2000-B Bleed Sensor Product Data",
+   "doc": "EF-x2000-B Product Data Sheet Product Data Sheet",
    "match": "\\bEF-[AN]2\\d{3}-B",
    "section": "datasheets",
-   "pageCount": 2
+   "pageCount": 7
   }
  ]
 }
