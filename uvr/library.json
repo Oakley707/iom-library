@@ -126,7 +126,7 @@
   {
    "id": "hour-meter",
    "title": "UV-C Lamp Hour Meter",
-   "doc": "90000090 Rev A",
+   "doc": "90000409 Rev A (8/17)",
    "match": "Hour\\s*Meter|\\b90001203\\b",
    "section": "iom",
    "pageCount": 2
