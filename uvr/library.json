@@ -8,6 +8,7 @@
    "title": "RLM [X] X-Box (GTS lamp / SA connector)",
    "doc": "00005014 Rev A",
    "match": "\\bRLM\\b|RLM-|X-?Box|\\b558001[67]\\d\\b|\\b558000[67]\\d\\b|\\b90002890\\b",
+   "section": "iom",
    "pageCount": 8
   },
   {
@@ -15,6 +16,7 @@
    "title": "RLM [X] X-Box (SEL lamp / UVR connector)",
    "doc": "55000027 Rev J",
    "match": "\\b50000137\\b|\\b55000170\\b",
+   "section": "iom",
    "pageCount": 8
   },
   {
@@ -22,6 +24,7 @@
    "title": "UV-C Fixture Framing Installation Kit",
    "doc": "90000407 Rev F",
    "match": "\\b55002005\\b|Framing|Fixture\\s*Installation\\s*Kit|\\b900030(00|10|12)\\b|Gusset|Leveling\\s*Foot|Splice\\s*Kit",
+   "section": "iom",
    "pageCount": 4
   },
   {
@@ -29,6 +32,7 @@
    "title": "DE [X] Double End High Output Fixture",
    "doc": "52000040 Rev M",
    "match": "^(?![\\s\\S]*(Encapsu-?lamp|\\bLamp\\b))[\\s\\S]*(\\bDE\\s*\\[X\\]|\\bDE\\s*\\d{2}\\b)|\\b1000\\d{4}\\b",
+   "section": "iom",
    "pageCount": 7
   },
   {
@@ -36,6 +40,7 @@
    "title": "DE [X] Boot Kit",
    "doc": "00001327 Rev A",
    "match": "\\bBoot\\b|\\b90000224\\b",
+   "section": "iom",
    "pageCount": 1
   },
   {
@@ -43,6 +48,7 @@
    "title": "DE [X] Deflector",
    "doc": "00001400 Rev A",
    "match": "Deflector|\\b1000\\d{2}22\\b",
+   "section": "iom",
    "pageCount": 1
   },
   {
@@ -50,6 +56,7 @@
    "title": "[X] PLUS",
    "doc": "57003523 Rev K",
    "match": "X[\\s-]?PLUS|\\[X\\]\\s*PLUS|\\b57800550\\b",
+   "section": "iom",
    "pageCount": 5
   },
   {
@@ -57,6 +64,7 @@
    "title": "480 to 220/240V Step-Down Transformer",
    "doc": "90000414 Rev B",
    "match": "Step[\\s-]?Down|\\b90004883\\b",
+   "section": "iom",
    "pageCount": 2
   },
   {
@@ -64,6 +72,7 @@
    "title": "SL [X] Single Ended High Output Fixture",
    "doc": "57003540 Rev B",
    "match": "\\bSL\\s*\\[X\\]|\\bSLX\\b|\\b1100300\\d\\b",
+   "section": "iom",
    "pageCount": 6
   },
   {
@@ -71,6 +80,7 @@
    "title": "SLN [X] / DLN [X] NEMA 4 Fixture",
    "doc": "57003530 Rev E",
    "match": "\\b[SD]LN\\s*\\[?X\\]?|\\b57[78]06550\\b",
+   "section": "iom",
    "pageCount": 7
   },
   {
@@ -78,6 +88,7 @@
    "title": "Duct Mounted Lamp Support Bracket",
    "doc": "00005017 Rev D",
    "match": "Lamp\\s*Support\\s*Bracket",
+   "section": "iom",
    "pageCount": 3
   },
   {
@@ -85,6 +96,7 @@
    "title": "GLO 150/225/310 Upper-Air",
    "doc": "90000420 Rev H",
    "match": "\\bGLO\\b|Upper[\\s-]Air",
+   "section": "iom",
    "pageCount": 9
   },
   {
@@ -92,6 +104,7 @@
    "title": "12V Contact Controller",
    "doc": "90000486 Rev A",
    "match": "Contact\\s*Controller|\\b9000152[5-7]\\b",
+   "section": "iom",
    "pageCount": 3
   },
   {
@@ -99,6 +112,7 @@
    "title": "CU2 Lamp/Ballast Sensing Monitor",
    "doc": "90000403 Rev A",
    "match": "\\b9000404\\d\\b|CU2\\S*\\s*(Ballast|Sensing|Monitor)",
+   "section": "iom",
    "pageCount": 1
   },
   {
@@ -106,6 +120,7 @@
    "title": "UVRepeat",
    "doc": "UVRepeat Rev A",
    "match": "UV\\s*Repeat|\\b9000405\\d\\b",
+   "section": "iom",
    "pageCount": 4
   },
   {
@@ -113,6 +128,7 @@
    "title": "UV-C Lamp Hour Meter",
    "doc": "90000090 Rev A",
    "match": "Hour\\s*Meter|\\b90001203\\b",
+   "section": "iom",
    "pageCount": 2
   },
   {
@@ -120,6 +136,7 @@
    "title": "Access Door Interlock Safety Switch",
    "doc": "90000410 Rev A",
    "match": "Interlock|Door\\s*Switch|Safety\\s*Switch",
+   "section": "iom",
    "pageCount": 2
   },
   {
@@ -127,6 +144,7 @@
    "title": "Water Proof UV Toggle Switch",
    "doc": "90001530 Rev A",
    "match": "Toggle\\s*Switch|\\b90001530\\b",
+   "section": "iom",
    "pageCount": 1
   },
   {
@@ -134,6 +152,7 @@
    "title": "Lamp Replacement",
    "doc": "00001340 Rev B",
    "match": "Encapsu-?lamp|\\bLamp\\b|\\bGT[SD]\\s*\\d|\\bSEL\\s*\\d|\\bTUV\\s?\\d|\\bDFL\\b",
+   "section": "iom",
    "pageCount": 5
   },
   {
@@ -141,6 +160,7 @@
    "title": "Viewport Window (Model VP)",
    "doc": "VP 05/2019",
    "match": "View\\s*port|\\b90001111\\b",
+   "section": "iom",
    "pageCount": 1
   },
   {
@@ -148,7 +168,120 @@
    "title": "UVC Controller II (Steril-Aire)",
    "doc": "1146 (Model 8102PVAB)",
    "match": "UVC\\s*Controller|Controller\\s*II|\\b8102PVAB\\b",
+   "section": "iom",
    "pageCount": 6
+  },
+  {
+   "id": "ds-rlmx",
+   "title": "RLM [X] Xtreme / X-Box (HO, GTS lamps)",
+   "doc": "RLM [X] Data Sheet Rev. A (GTS-lamp version, from UVR factory submittal 12/17/2025)",
+   "match": "\\bRLM\\b|RLM-|X-?Box|\\b558001[67]\\d\\b|\\b558000[67]\\d\\b|\\b90002890\\b|\\b55000(053|054|180|192)\\b",
+   "section": "datasheets",
+   "pageCount": 3
+  },
+  {
+   "id": "ds-dex",
+   "title": "DE [X] Double Ended High Output Fixture",
+   "doc": "DEX-v1 (Rev. A, Dec 2024)",
+   "match": "^(?![\\s\\S]*(Encapsu-?lamp|\\bLamp\\b))[\\s\\S]*(\\bDE\\s*\\[X\\]|\\bDE\\s*\\d{2}\\b)|\\b1000\\d{4}\\b|\\b90000224\\b",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-slx",
+   "title": "SL [X] Single Ended Very High Output Fixture",
+   "doc": "SLX-v1 (Rev. A, Dec 2024)",
+   "match": "\\bSL\\s*\\[X\\]|\\bSLX\\b|\\b1100300\\d\\b",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-slnx",
+   "title": "SLN [X] Single Lamp NEMA 4 Fixture",
+   "doc": "SLNX-v1 (Rev. A, Dec 2024)",
+   "match": "\\bSLN\\s*\\[?X\\]?|\\b57706550\\b",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-dlnx",
+   "title": "DLN [X] Dual Lamp NEMA 4 Fixture",
+   "doc": "DLNX-v1 (Rev. A, Dec 2024)",
+   "match": "\\bDLN\\s*\\[?X\\]?|\\b57806550\\b",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-xplus",
+   "title": "[X] PLUS NEMA 4X Single Ended Fixture",
+   "doc": "X-Plus Data Sheet Rev. F",
+   "match": "X[\\s-]?PLUS|\\[X\\]\\s*PLUS|\\b57800550\\b",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-glo",
+   "title": "GLO 150/225/310 Upper-Air UVGI",
+   "doc": "GLO Data Sheet Rev. C (4/15)",
+   "match": "\\bGLO\\b|Upper[\\s-]Air|\\b4182\\d{4}\\b",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-cu2",
+   "title": "CU2 Lamp/Ballast Sensing Monitor",
+   "doc": "90000044 Rev. B (05/14)",
+   "match": "\\b9000404\\d\\b|^(?![\\s\\S]*X-?Box)[\\s\\S]*\\bCU2\\S*\\s*(Lamp|Ballast|Sensing|Monitor)",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-uvrepeat",
+   "title": "UVRepeat Lamp/Ballast Monitoring System",
+   "doc": "UVRepeat Data Sheet Rev. D",
+   "match": "UV\\s*Repeat|\\b9000405\\d\\b",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-contact-controller",
+   "title": "12V Contact Controller",
+   "doc": "90000025 Rev. B (2018)",
+   "match": "\\b9000152[5-7]\\b|\\b900043(15|20)\\b|^(?![\\s\\S]*X-?Box)[\\s\\S]*Contact\\s*Controller",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-hour-meter",
+   "title": "UV-C Lamp Hour Meter",
+   "doc": "90000090 Rev. A",
+   "match": "Hour\\s*Meter|\\b90001203\\b",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-lamps",
+   "title": "UV-C Lamp Specification (GTS / EGTS / RGTS / GTD / SEL)",
+   "doc": "00005019 Rev. A (02/25)",
+   "match": "^(?![\\s\\S]*(Hour\\s*Meter|Support\\s*Bracket|Lamp\\s*Connector|Lamp\\s*Lube|Lamp\\s*Holster))[\\s\\S]*(Encapsu-?lamp|\\bLamps?\\b|\\bE?R?GT[SD]\\s*\\d|\\bSEL\\s*\\d|\\b2[01]000\\d{3}\\b)",
+   "section": "datasheets",
+   "pageCount": 8
+  },
+  {
+   "id": "ds-framing-kit",
+   "title": "UV-C Fixture Framing Installation Kit (drawing)",
+   "doc": "55002005 Rev. B (10/01/2024)",
+   "match": "\\b55002005\\b|Framing|Fixture\\s*Installation\\s*Kit|\\b900030(00|10|12)\\b|Gusset|Leveling\\s*Foot|Splice\\s*Kit",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-viewport",
+   "title": "Viewport Window (Model VP2 / VP2TB)",
+   "doc": "PD-VP2 (P/N 90001111)",
+   "match": "View\\s*port|\\b9000111[01]\\b",
+   "section": "datasheets",
+   "pageCount": 1
   }
  ]
 }

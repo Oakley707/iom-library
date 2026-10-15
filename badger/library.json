@@ -8,6 +8,7 @@
    "title": "ModMAG M2000 Electromagnetic Flow Meter",
    "doc": "MAG-UM-01272-EN-43",
    "match": "^\\s*2M-|\\bM-?2000\\b|MODMAG-2000",
+   "section": "iom",
    "pageCount": 80
   },
   {
@@ -15,6 +16,7 @@
    "title": "ModMAG M2000 BACnet MS/TP",
    "doc": "MAG-UM-03547-EN-01",
    "match": "(^\\s*2M-|\\bM-?2000\\b)[\\s\\S]*BACnet|BACnet[\\s\\S]*(^\\s*2M-|\\bM-?2000\\b)",
+   "section": "iom",
    "pageCount": 16
   },
   {
@@ -22,6 +24,7 @@
    "title": "ModMAG M5000 Electromagnetic Flow Meter",
    "doc": "MAG-UM-05200-EN-03",
    "match": "^\\s*5M-|\\bM-?5000\\b",
+   "section": "iom",
    "pageCount": 64
   },
   {
@@ -29,6 +32,7 @@
    "title": "Dynasonics TFX-5000 Clamp-On Ultrasonic Meter",
    "doc": "TTM-UM-02222-EN-21",
    "match": "^\\s*DQ-|\\bTFX-?5000\\b",
+   "section": "iom",
    "pageCount": 64
   },
   {
@@ -36,6 +40,7 @@
    "title": "Dynasonics TFX-5000 BACnet MS/TP",
    "doc": "TTM-UM-03074-EN-07",
    "match": "(^\\s*DQ-|\\bTFX-?5000\\b)[\\s\\S]*BACnet|BACnet[\\s\\S]*(^\\s*DQ-|\\bTFX-?5000\\b)",
+   "section": "iom",
    "pageCount": 20
   },
   {
@@ -43,6 +48,7 @@
    "title": "Dynasonics TFX-500w Clamp-On Meter",
    "doc": "TTM-UM-02537-EN-07",
    "match": "^\\s*DW-|\\bTFX-?500\\s?w\\b",
+   "section": "iom",
    "pageCount": 44
   },
   {
@@ -50,6 +56,7 @@
    "title": "Dynasonics Easy Rail (JZ & KZ) Transducers",
    "doc": "IND-UM-02650-EN-10",
    "match": "^\\s*D[QW]-\\w-[JK]Z-|Easy\\s*Rail",
+   "section": "iom",
    "pageCount": 8
   },
   {
@@ -57,6 +64,7 @@
    "title": "Dynasonics Standard & High Temp Transducers",
    "doc": "IND-UM-02648-EN-11",
    "match": "^\\s*D[QW]-\\w-(?![JK]Z)[A-Z]{2}-|\\bDTT[NHS]\\w*",
+   "section": "iom",
    "pageCount": 16
   },
   {
@@ -64,6 +72,7 @@
    "title": "Impeller SDI Series Insert Flow Sensor",
    "doc": "SEN-UM-00215-EN-13",
    "match": "\\b8?SDI\\w*|\\bImpeller\\b",
+   "section": "iom",
    "pageCount": 20
   },
   {
@@ -71,6 +80,7 @@
    "title": "Impeller SDI Series, Battery Powered",
    "doc": "SEN-UM-00217-EN-14",
    "match": "\\bSDI\\b[\\s\\S]*Battery|Battery[\\s\\S]*\\bSDI",
+   "section": "iom",
    "pageCount": 16
   },
   {
@@ -78,6 +88,7 @@
    "title": "Recordall Industrial Nutating Disc Meters",
    "doc": "RDM-UM-01089-EN-09",
    "match": "^\\s*FB-|\\bRCDL\\b|Nutating|Recordall[\\s\\S]*Industrial",
+   "section": "iom",
    "pageCount": 8
   },
   {
@@ -85,6 +96,7 @@
    "title": "Recordall Disc Meters, Cold Water",
    "doc": "RDM-UM-00059-EN-06",
    "match": "^\\s*M(25|35|55|70|120|170)\\b|Recordall\\s*Disc",
+   "section": "iom",
    "pageCount": 4
   },
   {
@@ -92,6 +104,7 @@
    "title": "Recordall Turbo Series Meters",
    "doc": "RTS-UM-00380-EN-14",
    "match": "Recordall\\s*Turbo|\\bTurbo\\s*(160|200|450|1000|2000|3500|5500|6200)\\b",
+   "section": "iom",
    "pageCount": 16
   },
   {
@@ -99,6 +112,7 @@
    "title": "Industrial Turbo Meters",
    "doc": "TUR-UM-00530-EN-24",
    "match": "^\\s*IT-|Industrial\\s*Turbo",
+   "section": "iom",
    "pageCount": 12
   },
   {
@@ -106,6 +120,7 @@
    "title": "E-Series G2 Ultrasonic Meters",
    "doc": "ESM-UM-04284-EN-12",
    "match": "^\\s*UC-|E-?Series|\\bG-?2\\b[\\s\\S]*Ultrasonic|Ultrasonic[\\s\\S]*\\bG-?2\\b",
+   "section": "iom",
    "pageCount": 28
   },
   {
@@ -113,6 +128,7 @@
    "title": "FC-5000 BTU Monitor",
    "doc": "CTL-UM-02038-EN-05",
    "match": "^\\s*FC5-BM|FC-?5000\\s*BTU|BTU\\s*Monitor",
+   "section": "iom",
    "pageCount": 52
   },
   {
@@ -120,6 +136,7 @@
    "title": "FC-5000 Flow Display",
    "doc": "CTL-UM-02765-EN-03",
    "match": "^\\s*FC5-FD|FC-?5000\\s*Flow\\s*Display",
+   "section": "iom",
    "pageCount": 44
   },
   {
@@ -127,6 +144,7 @@
    "title": "VN2000 Vortex Flow Meter Transmitter",
    "doc": "VRX-UM-02233-EN-03",
    "match": "^\\s*V[CFWH]-?A?\\d|\\bVN-?2000\\b|\\bVortex\\b",
+   "section": "iom",
    "pageCount": 28
   },
   {
@@ -134,13 +152,15 @@
    "title": "VN2000 Compact Insertion Meter",
    "doc": "VRX-UM-02218-EN-07",
    "match": "^\\s*VC-?A\\d|Compact\\s*Insertion",
+   "section": "iom",
    "pageCount": 12
   },
   {
    "id": "vn2000-hottap",
    "title": "VN2000 Hot Tap Insertion Meter",
    "doc": "VRX-UM-02217-EN-08",
-   "match": "^\\s*VH-?A?\\d|Vortex[\\s\\S]*Hot\\s*Tap|VN-?2000[\\s\\S]*Hot\\s*Tap",
+   "match": "^\\s*V[FH]-?A?\\d|Vortex[\\s\\S]*Hot\\s*Tap|VN-?2000[\\s\\S]*Hot\\s*Tap",
+   "section": "iom",
    "pageCount": 20
   },
   {
@@ -148,6 +168,7 @@
    "title": "HR-E LCD Encoder",
    "doc": "LCD-UM-01482-EN-09",
    "match": "\\bHR-?E\\b(\\s*LCD)?",
+   "section": "iom",
    "pageCount": 12
   },
   {
@@ -155,7 +176,176 @@
    "title": "HR-LCD Registers",
    "doc": "REG-UM-02466-EN-04",
    "match": "\\bHR-LCD\\b|\\bHRLCD\\b",
+   "section": "iom",
    "pageCount": 12
+  },
+  {
+   "id": "ds-m2000",
+   "title": "ModMAG M2000 Electromagnetic Flow Meter",
+   "doc": "MAG-DS-01047-EN-33 (March 2026)",
+   "match": "^\\s*2M-|\\bM-?2000\\b|MODMAG-2000",
+   "section": "datasheets",
+   "pageCount": 16
+  },
+  {
+   "id": "ds-m5000",
+   "title": "ModMAG M5000 Electromagnetic Flow Meter (M5000 Refresh)",
+   "doc": "MAG-DS-05196-EN-02 (August 2026)",
+   "match": "^\\s*5M-|\\bM-?5000\\b",
+   "section": "datasheets",
+   "pageCount": 12
+  },
+  {
+   "id": "ds-tfx5000",
+   "title": "Dynasonics TFX-5000 Clamp-On Ultrasonic Flow / Energy Meter",
+   "doc": "TTM-DS-02221-EN-15 (October 2026)",
+   "match": "^\\s*D[QR]-|\\bTFX-?5000\\b",
+   "section": "datasheets",
+   "pageCount": 16
+  },
+  {
+   "id": "ds-tfx500w",
+   "title": "Dynasonics TFX-500w Clamp-On Meter",
+   "doc": "TTM-DS-02183-EN-13 (December 2024)",
+   "match": "^\\s*DW-|\\bTFX-?500\\s?w\\b",
+   "section": "datasheets",
+   "pageCount": 12
+  },
+  {
+   "id": "ds-sdi-ss",
+   "title": "Impeller SDI Series Insert Flow Sensor, Stainless Steel (NSF)",
+   "doc": "SEN-DS-04203-EN-04 (July 2025)",
+   "match": "^(?![\\s\\S]*\\bBrass\\b)[\\s\\S]*(\\b8?SDI(?!1[DH]\\d)|\\bImpeller\\b)",
+   "section": "datasheets",
+   "pageCount": 8
+  },
+  {
+   "id": "ds-sdi-brass",
+   "title": "Impeller SDI Series Insert Flow Sensor, Brass",
+   "doc": "SEN-DS-04206-EN-04 (July 2025)",
+   "match": "\\b8?SDI1[DH]\\d|\\b(SDI|Impeller)\\b[\\s\\S]*\\bBrass\\b|\\bBrass\\b[\\s\\S]*\\b(SDI|Impeller)\\b",
+   "section": "datasheets",
+   "pageCount": 8
+  },
+  {
+   "id": "ds-recordall-disc-small",
+   "title": "Recordall Disc Meters, Lead-Free Bronze, Models 25/35/55/70 (5/8-1 in.)",
+   "doc": "RDM-DS-00467-EN-08 (February 2025)",
+   "match": "^\\s*FB-[A-K][A-Z]{2}-|^\\s*M(25|35|55|70)\\b|Recordall\\s*Disc[\\s\\S]*\\bModel\\s*(25|35|55|70)\\b",
+   "section": "datasheets",
+   "pageCount": 8
+  },
+  {
+   "id": "ds-recordall-disc-large",
+   "title": "Recordall Disc Meters, Lead-Free Bronze, Models 120 & 170 (1-1/2 & 2 in.)",
+   "doc": "RDM-DS-00465-EN-11 (June 2026)",
+   "match": "^\\s*FB-[L-Z][A-Z]{2}-|^\\s*M(120|170)\\b|\\bModel\\s*(120|170)\\b",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-recordall-industrial",
+   "title": "Recordall Industrial Nutating Disc Meters, Bronze & Thermoplastic",
+   "doc": "IDM-DS-00113-EN-10 (August 2023)",
+   "match": "\\bRCDL\\b|Recordall[\\s\\S]*Industrial|Industrial\\s*Recordall|Nutating",
+   "section": "datasheets",
+   "pageCount": 8
+  },
+  {
+   "id": "ds-recordall-turbo",
+   "title": "Recordall Turbo Series Meters",
+   "doc": "RTS-DS-00320-EN-11 (August 2026)",
+   "match": "Recordall\\s*Turbo|\\bTurbo\\s*(160|200|450|1000|2000|3500|5500|6200)\\b",
+   "section": "datasheets",
+   "pageCount": 8
+  },
+  {
+   "id": "ds-industrial-turbo",
+   "title": "Industrial Turbo (Turbine) Meter",
+   "doc": "TRB-DS-01191-EN-08 (June 2025)",
+   "match": "^\\s*IT-|Industrial\\s*Turb(o|ine)",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-eseries-g2",
+   "title": "E-Series G2 Ultrasonic Meter, Industrial Pulse & 4-20 mA",
+   "doc": "ESM-DS-04210-EN-05 (January 2026)",
+   "match": "^\\s*UC-|E-?Series|\\bG-?2\\b[\\s\\S]*Ultrasonic|Ultrasonic[\\s\\S]*\\bG-?2\\b",
+   "section": "datasheets",
+   "pageCount": 8
+  },
+  {
+   "id": "ds-fc5000-btu",
+   "title": "FC-5000 BTU Monitor",
+   "doc": "CTL-DS-02610-EN-04 (August 2021)",
+   "match": "^\\s*FC5-BM|FC-?5000\\s*BTU|BTU\\s*Monitor",
+   "section": "datasheets",
+   "pageCount": 8
+  },
+  {
+   "id": "ds-rtd",
+   "title": "Impeller R-Series RTD (BTU temperature sensors)",
+   "doc": "XMT-DS-02807-EN-02 (December 2021)",
+   "match": "^\\s*FC5-BM|FC-?5000\\s*BTU|BTU\\s*Monitor|\\bR-?Series\\s*RTD",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-fc5000-display",
+   "title": "FC-5000 Flow Display",
+   "doc": "CTL-DS-02772-EN-03 (August 2021)",
+   "match": "^\\s*FC5-FD|FC-?5000\\s*Flow\\s*Display",
+   "section": "datasheets",
+   "pageCount": 8
+  },
+  {
+   "id": "ds-vn2000-compact",
+   "title": "VN2000 Vortex Compact Insertion Meter",
+   "doc": "VRX-DS-02212-EN-12 (May 2026)",
+   "match": "^\\s*VC-?A?-?\\d|Compact\\s*Insertion",
+   "section": "datasheets",
+   "pageCount": 8
+  },
+  {
+   "id": "ds-vn2000-hottap",
+   "title": "VN2000 Vortex Hot Tap Insertion Meter",
+   "doc": "VRX-DS-02211-EN-11 (April 2026)",
+   "match": "^\\s*V[FH]-?A?-?\\d|Vortex[\\s\\S]*Hot\\s*Tap|VN-?2000[\\s\\S]*Hot\\s*Tap",
+   "section": "datasheets",
+   "pageCount": 12
+  },
+  {
+   "id": "ds-vn2000-wafer",
+   "title": "VN2000 Vortex Wafer Inline Meter",
+   "doc": "VRX-DS-02213-EN-02 (June 2022)",
+   "match": "^\\s*VW-?A?-?\\d|Vortex[\\s\\S]*Wafer|VN-?2000[\\s\\S]*Wafer",
+   "section": "datasheets",
+   "pageCount": 8
+  },
+  {
+   "id": "ds-hr-e-lcd",
+   "title": "HR-E LCD Encoder",
+   "doc": "ENC-DS-01763-EN-06 (January 2021)",
+   "match": "\\bHR-?E\\b(\\s*LCD)?",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-hr-lcd-420",
+   "title": "HR-LCD 4-20 mA Register",
+   "doc": "REG-DS-01969-EN-05 (September 2025)",
+   "match": "\\bHR-?LCD\\b[\\s\\S]*4-?20|4-?20[\\s\\S]*\\bHR-?LCD\\b",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-hr-lcd-pulse",
+   "title": "HR-LCD Pulse Register",
+   "doc": "REG-DS-02291-EN-03 (September 2025)",
+   "match": "^(?![\\s\\S]*4-?20)[\\s\\S]*\\bHR-?LCD\\b",
+   "section": "datasheets",
+   "pageCount": 2
   }
  ]
 }
