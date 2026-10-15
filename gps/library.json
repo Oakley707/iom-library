@@ -1,0 +1,147 @@
+{
+ "vendor": "gps",
+ "maker": "GPS Air",
+ "updated": "2026-10-15",
+ "ioms": [
+  {
+   "id": "imod",
+   "title": "GPS-iMOD",
+   "doc": "GPS-041-11-R23-iMOD-IOM",
+   "match": "\\biMod\\b|^MOD-|\\bMOD-\\d|iMOD-PS",
+   "pageCount": 20
+  },
+  {
+   "id": "fc24",
+   "title": "GPS-FC24-AC",
+   "doc": "GPS-041-14-R22-FC24-IOM",
+   "match": "\\bFC\\s?-?24\\b",
+   "pageCount": 6
+  },
+  {
+   "id": "fc48",
+   "title": "GPS-FC48-AC",
+   "doc": "GPS-041-15-R22-FC48-IOM",
+   "match": "\\bFC\\s?-?48\\b",
+   "pageCount": 4
+  },
+  {
+   "id": "dm48",
+   "title": "GPS-DM48-AC",
+   "doc": "GPS-041-12-R22-DM48-IOM",
+   "match": "\\bDM\\s?-?48\\b",
+   "pageCount": 5
+  },
+  {
+   "id": "dm2",
+   "title": "GPS-DM-2",
+   "doc": "GPS-041-26-R22-DM2-IOM",
+   "match": "\\bDM\\s?-?2\\b(?!\\d)",
+   "pageCount": 10
+  },
+  {
+   "id": "dms",
+   "title": "GPS-DMS",
+   "doc": "GPS-041-30-R22-DMS-IOM",
+   "match": "\\bDM\\s?-?S\\b",
+   "pageCount": 8
+  },
+  {
+   "id": "fc3bas",
+   "title": "GPS-FC-3 / FC-3T-BAS",
+   "doc": "GPS-041-16-R21-FC3-IOM",
+   "match": "\\bFC\\s?-?3T?\\s?-?BAS\\b|\\bFC3T",
+   "pageCount": 7
+  },
+  {
+   "id": "irib",
+   "title": "GPS-iRib",
+   "doc": "GPS-041-13-R21-iRIB-IOM",
+   "match": "\\biRib\\b",
+   "pageCount": 5
+  },
+  {
+   "id": "ci2",
+   "title": "GPS-CI-2",
+   "doc": "GPS-041-28-R24-CI2-IOM",
+   "match": "\\bCI\\s?-?2\\b",
+   "pageCount": 7
+  },
+  {
+   "id": "ps2",
+   "title": "GPS-PS-2 power supply",
+   "doc": "GPS-041-31-R21-PS2-IOM",
+   "match": "\\bPS\\s?-?2\\b",
+   "pageCount": 8
+  },
+  {
+   "id": "idf2",
+   "title": "GPS-IDF-2",
+   "doc": "GPS-066-11-R24-IDF2-IOM",
+   "match": "\\bIDF\\s?-?2\\b",
+   "pageCount": 9
+  },
+  {
+   "id": "pfe",
+   "title": "GPS PF-e",
+   "doc": "GPS-070-11-R22-PFe-IOM",
+   "match": "\\bPF\\s?-?E\\b",
+   "pageCount": 8
+  },
+  {
+   "id": "pfi",
+   "title": "GPS PF-i",
+   "doc": "GPS-070-12-R22-PFi-IOM",
+   "match": "\\bPF\\s?-?I\\b",
+   "pageCount": 6
+  },
+  {
+   "id": "siaq500",
+   "title": "smartIAQ SIAQ-500 (Centralized / Distributed / Performance)",
+   "doc": "GPS-041-37-R21-S5P-IOM",
+   "match": "sIAQ\\d?-(?:CENT|DIST|PERF)|smartIAQ\\s*-\\s*(?:Centralized|Distributed|Performance)|SIAQ-?500",
+   "pageCount": 15
+  },
+  {
+   "id": "gridset",
+   "title": "smartIAQ GridSet / GridSet Pro",
+   "doc": "GPS-041-39-R23-GS-IOM",
+   "match": "^(?!.*(?:Hard Ceiling|Low[- ]?Profile|SGSPL|GSHC)).*(?:GridSet|\\bSGS)",
+   "pageCount": 18
+  },
+  {
+   "id": "gshc",
+   "title": "smartIAQ GridSet, hard-ceiling mount",
+   "doc": "GPS-041-41-R20-GSHC-IOM",
+   "match": "Hard Ceiling|Low[- ]?Profile|SGSPL|GSHC",
+   "pageCount": 18
+  },
+  {
+   "id": "hub4",
+   "title": "smartIAQ Hub-4 / Hub-4 Pro",
+   "doc": "GPS-041-40-R22-H4-IOM",
+   "match": "Hub-?4|\\bHB4|GridSet|\\bSGS",
+   "pageCount": 9
+  },
+  {
+   "id": "imeasure",
+   "title": "GPS-iMeasure",
+   "doc": "GPS-041-21-R22-iM-IOM",
+   "match": "iMeasure(?!\\s?-?D\\b)",
+   "pageCount": 4
+  },
+  {
+   "id": "imeasured",
+   "title": "GPS-iMeasure-D",
+   "doc": "GPS-041-20-R22-iMD-IOM",
+   "match": "iMeasure\\s?-?D\\b|\\biMD\\b",
+   "pageCount": 5
+  },
+  {
+   "id": "idetect",
+   "title": "GPS-iDetect-P",
+   "doc": "GPS-041-19-R22-iDP-IOM",
+   "match": "iDetect|\\biDP\\b",
+   "pageCount": 5
+  }
+ ]
+}

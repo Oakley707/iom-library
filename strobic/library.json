@@ -1,0 +1,42 @@
+{
+ "vendor": "strobic",
+ "maker": "Strobic Air",
+ "updated": "2026-10-15",
+ "ioms": [
+  {
+   "id": "strobic-tristack",
+   "title": "Tri-Stack Exhaust System",
+   "doc": "SA-TRISTACK-IOM-23",
+   "match": "\\bM\\d{2}[A-F]\\d{2}[NS]\\d{3,4}I\\d|tri-?stack",
+   "pageCount": 36
+  },
+  {
+   "id": "strobic-duostack",
+   "title": "Duo-Stack Exhaust System",
+   "doc": "SA-DUOSTACK-IOM-26",
+   "match": "\\bD\\d{2}B[IC]\\d{2}[NS]\\d{3,4}I\\d|duo-?stack",
+   "pageCount": 36
+  },
+  {
+   "id": "strobic-monostack",
+   "title": "Mono-Stack Series (Arrangement 4)",
+   "doc": "Mono-Stack IOM (legacy, undated)",
+   "match": "\\bC\\d{2}B[IC]\\d{2}[NS]\\d{3,4}I\\d|mono-?stack",
+   "pageCount": 13
+  },
+  {
+   "id": "strobic-safe",
+   "title": "S.A.F.E. Controller",
+   "doc": "SA-SAFE-IOM-23",
+   "match": "S\\.?A\\.?F\\.?E\\.?\\s*control|smart\\s*system",
+   "pageCount": 24
+  },
+  {
+   "id": "strobic-tristack-gen3",
+   "title": "Generation III Tri-Stack (legacy TS models)",
+   "doc": "Rev. C 3/6/18",
+   "match": "\\bTS\\s?\\d[SL]\\d{3}[A-D]\\d{2}\\b",
+   "pageCount": 32
+  }
+ ]
+}

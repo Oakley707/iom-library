@@ -1,0 +1,70 @@
+{
+ "vendor": "tamco",
+ "maker": "TAMCO",
+ "updated": "2026-10-15",
+ "ioms": [
+  {
+   "id": "tamco-cd",
+   "title": "Aluminum Control Dampers (1000, 1500, 9000 series)",
+   "doc": "TA-IOM-CD-24",
+   "match": "\\b(?:1000|1500|9000)\\b(?!\\s*-?\\s*SM\\b)",
+   "pageCount": 12
+  },
+  {
+   "id": "tamco-hdcd",
+   "title": "Heavy-Duty Control Dampers (Series 8800)",
+   "doc": "TA-IOM-HDCD-24",
+   "match": "\\b8800\\b",
+   "pageCount": 6
+  },
+  {
+   "id": "tamco-bdd",
+   "title": "Medium-Duty Backdraft Dampers (7000, 7100 series)",
+   "doc": "TA-IOM-BDD-25",
+   "match": "\\b7[01]00\\b",
+   "pageCount": 8
+  },
+  {
+   "id": "tamco-hdbd",
+   "title": "Heavy-Duty Backdraft Dampers (Series 7600)",
+   "doc": "TA-IOM-HDBD-24",
+   "match": "\\b7600\\b",
+   "pageCount": 8
+  },
+  {
+   "id": "tamco-jsh",
+   "title": "Horizontal Jackshaft",
+   "doc": "TA-IOM-JSH-24",
+   "match": "jack\\s*shaft",
+   "pageCount": 6
+  },
+  {
+   "id": "tamco-jsv",
+   "title": "Vertical Jackshaft",
+   "doc": "TA-IOM-JSV-24",
+   "match": "vertical\\s*jack\\s*shaft",
+   "pageCount": 2
+  },
+  {
+   "id": "tamco-jp",
+   "title": "Damper Jumpers",
+   "doc": "TA-IOM-JP-24",
+   "match": "jumper",
+   "pageCount": 2
+  },
+  {
+   "id": "tamco-sm",
+   "title": "Smoke Dampers (Series 1000 SM)",
+   "doc": "TA-IOM-SM-24",
+   "match": "\\b1000\\s*-?\\s*SM\\b",
+   "pageCount": 6
+  },
+  {
+   "id": "tamco-jpsm",
+   "title": "Smoke Damper Jumpers",
+   "doc": "TA-IOM-JPSM-24",
+   "match": "\\b1000\\s*-?\\s*SM\\b[\\s\\S]*jumper|jumper[\\s\\S]*\\b1000\\s*-?\\s*SM\\b",
+   "pageCount": 2
+  }
+ ]
+}

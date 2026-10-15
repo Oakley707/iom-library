@@ -1,0 +1,154 @@
+{
+ "vendor": "uvr",
+ "maker": "UV Resources",
+ "updated": "2026-10-15",
+ "ioms": [
+  {
+   "id": "rlmx-xbox-sa",
+   "title": "RLM [X] X-Box (GTS lamp / SA connector)",
+   "doc": "00005014 Rev A",
+   "match": "\\bRLM\\b|RLM-|X-?Box|\\b558001[67]\\d\\b|\\b558000[67]\\d\\b|\\b90002890\\b",
+   "pageCount": 8
+  },
+  {
+   "id": "rlmx-xbox-uvr",
+   "title": "RLM [X] X-Box (SEL lamp / UVR connector)",
+   "doc": "55000027 Rev J",
+   "match": "\\b50000137\\b|\\b55000170\\b",
+   "pageCount": 8
+  },
+  {
+   "id": "framing-kit",
+   "title": "UV-C Fixture Framing Installation Kit",
+   "doc": "90000407 Rev F",
+   "match": "\\b55002005\\b|Framing|Fixture\\s*Installation\\s*Kit|\\b900030(00|10|12)\\b|Gusset|Leveling\\s*Foot|Splice\\s*Kit",
+   "pageCount": 4
+  },
+  {
+   "id": "dex",
+   "title": "DE [X] Double End High Output Fixture",
+   "doc": "52000040 Rev M",
+   "match": "^(?![\\s\\S]*(Encapsu-?lamp|\\bLamp\\b))[\\s\\S]*(\\bDE\\s*\\[X\\]|\\bDE\\s*\\d{2}\\b)|\\b1000\\d{4}\\b",
+   "pageCount": 7
+  },
+  {
+   "id": "dex-boot",
+   "title": "DE [X] Boot Kit",
+   "doc": "00001327 Rev A",
+   "match": "\\bBoot\\b|\\b90000224\\b",
+   "pageCount": 1
+  },
+  {
+   "id": "dex-deflector",
+   "title": "DE [X] Deflector",
+   "doc": "00001400 Rev A",
+   "match": "Deflector|\\b1000\\d{2}22\\b",
+   "pageCount": 1
+  },
+  {
+   "id": "x-plus",
+   "title": "[X] PLUS",
+   "doc": "57003523 Rev K",
+   "match": "X[\\s-]?PLUS|\\[X\\]\\s*PLUS|\\b57800550\\b",
+   "pageCount": 5
+  },
+  {
+   "id": "x-plus-stepdown",
+   "title": "480 to 220/240V Step-Down Transformer",
+   "doc": "90000414 Rev B",
+   "match": "Step[\\s-]?Down|\\b90004883\\b",
+   "pageCount": 2
+  },
+  {
+   "id": "slx",
+   "title": "SL [X] Single Ended High Output Fixture",
+   "doc": "57003540 Rev B",
+   "match": "\\bSL\\s*\\[X\\]|\\bSLX\\b|\\b1100300\\d\\b",
+   "pageCount": 6
+  },
+  {
+   "id": "slnx-dlnx",
+   "title": "SLN [X] / DLN [X] NEMA 4 Fixture",
+   "doc": "57003530 Rev E",
+   "match": "\\b[SD]LN\\s*\\[?X\\]?|\\b57[78]06550\\b",
+   "pageCount": 7
+  },
+  {
+   "id": "lamp-support-bracket",
+   "title": "Duct Mounted Lamp Support Bracket",
+   "doc": "00005017 Rev D",
+   "match": "Lamp\\s*Support\\s*Bracket",
+   "pageCount": 3
+  },
+  {
+   "id": "glo",
+   "title": "GLO 150/225/310 Upper-Air",
+   "doc": "90000420 Rev H",
+   "match": "\\bGLO\\b|Upper[\\s-]Air",
+   "pageCount": 9
+  },
+  {
+   "id": "contact-controller",
+   "title": "12V Contact Controller",
+   "doc": "90000486 Rev A",
+   "match": "Contact\\s*Controller|\\b9000152[5-7]\\b",
+   "pageCount": 3
+  },
+  {
+   "id": "cu2",
+   "title": "CU2 Lamp/Ballast Sensing Monitor",
+   "doc": "90000403 Rev A",
+   "match": "\\b9000404\\d\\b|CU2\\S*\\s*(Ballast|Sensing|Monitor)",
+   "pageCount": 1
+  },
+  {
+   "id": "uvrepeat",
+   "title": "UVRepeat",
+   "doc": "UVRepeat Rev A",
+   "match": "UV\\s*Repeat|\\b9000405\\d\\b",
+   "pageCount": 4
+  },
+  {
+   "id": "hour-meter",
+   "title": "UV-C Lamp Hour Meter",
+   "doc": "90000090 Rev A",
+   "match": "Hour\\s*Meter|\\b90001203\\b",
+   "pageCount": 2
+  },
+  {
+   "id": "door-interlock",
+   "title": "Access Door Interlock Safety Switch",
+   "doc": "90000410 Rev A",
+   "match": "Interlock|Door\\s*Switch|Safety\\s*Switch",
+   "pageCount": 2
+  },
+  {
+   "id": "toggle-switch",
+   "title": "Water Proof UV Toggle Switch",
+   "doc": "90001530 Rev A",
+   "match": "Toggle\\s*Switch|\\b90001530\\b",
+   "pageCount": 1
+  },
+  {
+   "id": "lamp-replacement",
+   "title": "Lamp Replacement",
+   "doc": "00001340 Rev B",
+   "match": "Encapsu-?lamp|\\bLamp\\b|\\bGT[SD]\\s*\\d|\\bSEL\\s*\\d|\\bTUV\\s?\\d|\\bDFL\\b",
+   "pageCount": 5
+  },
+  {
+   "id": "viewport",
+   "title": "Viewport Window (Model VP)",
+   "doc": "VP 05/2019",
+   "match": "View\\s*port|\\b90001111\\b",
+   "pageCount": 1
+  },
+  {
+   "id": "uvc-controller-ii",
+   "title": "UVC Controller II (Steril-Aire)",
+   "doc": "1146 (Model 8102PVAB)",
+   "match": "UVC\\s*Controller|Controller\\s*II|\\b8102PVAB\\b",
+   "pageCount": 6
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "vendor": "badger",
+ "maker": "Badger Meter",
+ "updated": "2026-10-15",
+ "ioms": [
+  {
+   "id": "m2000",
+   "title": "ModMAG M2000 Electromagnetic Flow Meter",
+   "doc": "MAG-UM-01272-EN-43",
+   "match": "^\\s*2M-|\\bM-?2000\\b|MODMAG-2000",
+   "pageCount": 80
+  },
+  {
+   "id": "m2000-bacnet-mstp",
+   "title": "ModMAG M2000 BACnet MS/TP",
+   "doc": "MAG-UM-03547-EN-01",
+   "match": "(^\\s*2M-|\\bM-?2000\\b)[\\s\\S]*BACnet|BACnet[\\s\\S]*(^\\s*2M-|\\bM-?2000\\b)",
+   "pageCount": 16
+  },
+  {
+   "id": "m5000",
+   "title": "ModMAG M5000 Electromagnetic Flow Meter",
+   "doc": "MAG-UM-05200-EN-03",
+   "match": "^\\s*5M-|\\bM-?5000\\b",
+   "pageCount": 64
+  },
+  {
+   "id": "tfx5000",
+   "title": "Dynasonics TFX-5000 Clamp-On Ultrasonic Meter",
+   "doc": "TTM-UM-02222-EN-21",
+   "match": "^\\s*DQ-|\\bTFX-?5000\\b",
+   "pageCount": 64
+  },
+  {
+   "id": "tfx5000-bacnet-mstp",
+   "title": "Dynasonics TFX-5000 BACnet MS/TP",
+   "doc": "TTM-UM-03074-EN-07",
+   "match": "(^\\s*DQ-|\\bTFX-?5000\\b)[\\s\\S]*BACnet|BACnet[\\s\\S]*(^\\s*DQ-|\\bTFX-?5000\\b)",
+   "pageCount": 20
+  },
+  {
+   "id": "tfx500w",
+   "title": "Dynasonics TFX-500w Clamp-On Meter",
+   "doc": "TTM-UM-02537-EN-07",
+   "match": "^\\s*DW-|\\bTFX-?500\\s?w\\b",
+   "pageCount": 44
+  },
+  {
+   "id": "easy-rail",
+   "title": "Dynasonics Easy Rail (JZ & KZ) Transducers",
+   "doc": "IND-UM-02650-EN-10",
+   "match": "^\\s*D[QW]-\\w-[JK]Z-|Easy\\s*Rail",
+   "pageCount": 8
+  },
+  {
+   "id": "dtt-transducers",
+   "title": "Dynasonics Standard & High Temp Transducers",
+   "doc": "IND-UM-02648-EN-11",
+   "match": "^\\s*D[QW]-\\w-(?![JK]Z)[A-Z]{2}-|\\bDTT[NHS]\\w*",
+   "pageCount": 16
+  },
+  {
+   "id": "sdi",
+   "title": "Impeller SDI Series Insert Flow Sensor",
+   "doc": "SEN-UM-00215-EN-13",
+   "match": "\\b8?SDI\\w*|\\bImpeller\\b",
+   "pageCount": 20
+  },
+  {
+   "id": "sdi-battery",
+   "title": "Impeller SDI Series, Battery Powered",
+   "doc": "SEN-UM-00217-EN-14",
+   "match": "\\bSDI\\b[\\s\\S]*Battery|Battery[\\s\\S]*\\bSDI",
+   "pageCount": 16
+  },
+  {
+   "id": "recordall-industrial",
+   "title": "Recordall Industrial Nutating Disc Meters",
+   "doc": "RDM-UM-01089-EN-09",
+   "match": "^\\s*FB-|\\bRCDL\\b|Nutating|Recordall[\\s\\S]*Industrial",
+   "pageCount": 8
+  },
+  {
+   "id": "recordall-disc",
+   "title": "Recordall Disc Meters, Cold Water",
+   "doc": "RDM-UM-00059-EN-06",
+   "match": "^\\s*M(25|35|55|70|120|170)\\b|Recordall\\s*Disc",
+   "pageCount": 4
+  },
+  {
+   "id": "recordall-turbo",
+   "title": "Recordall Turbo Series Meters",
+   "doc": "RTS-UM-00380-EN-14",
+   "match": "Recordall\\s*Turbo|\\bTurbo\\s*(160|200|450|1000|2000|3500|5500|6200)\\b",
+   "pageCount": 16
+  },
+  {
+   "id": "industrial-turbo",
+   "title": "Industrial Turbo Meters",
+   "doc": "TUR-UM-00530-EN-24",
+   "match": "^\\s*IT-|Industrial\\s*Turbo",
+   "pageCount": 12
+  },
+  {
+   "id": "eseries-g2",
+   "title": "E-Series G2 Ultrasonic Meters",
+   "doc": "ESM-UM-04284-EN-12",
+   "match": "^\\s*UC-|E-?Series|\\bG-?2\\b[\\s\\S]*Ultrasonic|Ultrasonic[\\s\\S]*\\bG-?2\\b",
+   "pageCount": 28
+  },
+  {
+   "id": "fc5000-btu",
+   "title": "FC-5000 BTU Monitor",
+   "doc": "CTL-UM-02038-EN-05",
+   "match": "^\\s*FC5-BM|FC-?5000\\s*BTU|BTU\\s*Monitor",
+   "pageCount": 52
+  },
+  {
+   "id": "fc5000-display",
+   "title": "FC-5000 Flow Display",
+   "doc": "CTL-UM-02765-EN-03",
+   "match": "^\\s*FC5-FD|FC-?5000\\s*Flow\\s*Display",
+   "pageCount": 44
+  },
+  {
+   "id": "vn2000",
+   "title": "VN2000 Vortex Flow Meter Transmitter",
+   "doc": "VRX-UM-02233-EN-03",
+   "match": "^\\s*V[CFWH]-?A?\\d|\\bVN-?2000\\b|\\bVortex\\b",
+   "pageCount": 28
+  },
+  {
+   "id": "vn2000-compact",
+   "title": "VN2000 Compact Insertion Meter",
+   "doc": "VRX-UM-02218-EN-07",
+   "match": "^\\s*VC-?A\\d|Compact\\s*Insertion",
+   "pageCount": 12
+  },
+  {
+   "id": "vn2000-hottap",
+   "title": "VN2000 Hot Tap Insertion Meter",
+   "doc": "VRX-UM-02217-EN-08",
+   "match": "^\\s*VH-?A?\\d|Vortex[\\s\\S]*Hot\\s*Tap|VN-?2000[\\s\\S]*Hot\\s*Tap",
+   "pageCount": 20
+  },
+  {
+   "id": "hr-e-lcd",
+   "title": "HR-E LCD Encoder",
+   "doc": "LCD-UM-01482-EN-09",
+   "match": "\\bHR-?E\\b(\\s*LCD)?",
+   "pageCount": 12
+  },
+  {
+   "id": "hr-lcd",
+   "title": "HR-LCD Registers",
+   "doc": "REG-UM-02466-EN-04",
+   "match": "\\bHR-LCD\\b|\\bHRLCD\\b",
+   "pageCount": 12
+  }
+ ]
+}
