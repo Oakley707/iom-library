@@ -1,7 +1,7 @@
 {
  "vendor": "ebtron",
  "maker": "EBTRON",
- "updated": "2026-10-15",
+ "updated": "2026-11-05",
  "ioms": [
   {
    "id": "ebt-om",
@@ -9,6 +9,7 @@
    "doc": "EBTRON A4/EF2 O&M Manual (updated 08-17-2026)",
    "match": "\\b(?:GT[A-Z]1(?:16|08)e?|HT[A-Z]1(?:16|04)e?|EF-[AN]2\\d{3})-",
    "section": "iom",
+   "auto": false,
    "pageCount": 118
   },
   {
@@ -49,6 +50,7 @@
    "doc": "Placement_Duct_Plenum_Probe r1h",
    "match": "\\b(?:GT[A-Z]116e?-[PZ]|HT[A-Z]1(?:16|04)e?-[PT]|EF-[AN][12]\\d{3}-[TU])",
    "section": "iom",
+   "auto": false,
    "pageCount": 17
   },
   {
