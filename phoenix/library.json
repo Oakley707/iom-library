@@ -1,0 +1,311 @@
+{
+ "vendor": "phoenix",
+ "maker": "Phoenix Controls",
+ "updated": "2026-11-10",
+ "ioms": [
+  {
+   "id": "ds-mech",
+   "title": "Valve Install & Mechanical Data",
+   "doc": "MKT-0065",
+   "match": "^(PV[SE]|EXV|MAV|CEV|TEV|TSV|BSV|BEV)[A-Z]",
+   "section": "datasheets",
+   "pageCount": 4
+  },
+  {
+   "id": "ds-cscp",
+   "title": "CSCP Valves",
+   "doc": "MKT-0525 Rev A (02.2024)",
+   "match": "^PV[SE][A-Z]",
+   "section": "datasheets",
+   "pageCount": 6
+  },
+  {
+   "id": "ds-cscp-kit",
+   "title": "CSCP Valve Upgrade Kit",
+   "doc": "MKT-0537 Rev B (02.2025)",
+   "match": "^PVUX",
+   "section": "datasheets",
+   "pageCount": 18
+  },
+  {
+   "id": "ds-vug",
+   "title": "Valve Upgrade Kits (Celeris / Traccel / BxV)",
+   "doc": "MKT-0322",
+   "match": "^(C2|TX|BX)UX",
+   "section": "datasheets",
+   "pageCount": 17
+  },
+  {
+   "id": "ds-celeris-mp",
+   "title": "Celeris Medium-Pressure Controllers",
+   "doc": "MKT-0277 Rev A (04.2025)",
+   "match": "^(MAV|EXV|CEV)[A-Z]\\d+M",
+   "section": "datasheets",
+   "pageCount": 7
+  },
+  {
+   "id": "ds-celeris-lp",
+   "title": "Celeris Low-Pressure Controllers",
+   "doc": "MKT-0275",
+   "match": "^(MAV|EXV|CEV)[A-Z]\\d+L",
+   "section": "datasheets",
+   "pageCount": 7
+  },
+  {
+   "id": "ds-traccel",
+   "title": "Traccel BACnet Controller",
+   "doc": "MKT-0242",
+   "match": "^(TEV|TSV)[A-Z]|^TXUX",
+   "section": "datasheets",
+   "pageCount": 35
+  },
+  {
+   "id": "ds-bxv",
+   "title": "BxV Tiered Solutions",
+   "doc": "MKT-0406",
+   "match": "^(BSV|BEV)[A-Z]|^BXUX",
+   "section": "datasheets",
+   "pageCount": 17
+  },
+  {
+   "id": "ds-pbc",
+   "title": "Programmable BACnet Controller (PBC)",
+   "doc": "PBC Datasheet",
+   "match": "^PBC|-500(-|$|\\s)",
+   "section": "datasheets",
+   "pageCount": 4
+  },
+  {
+   "id": "ds-acm",
+   "title": "Actuator Control Module (ACM, high speed)",
+   "doc": "ACM Product Catalog Page",
+   "match": "^PV[SEU]\\w*-[A-Z]{2}[DB]|-BMT(-|$|\\s)",
+   "section": "datasheets",
+   "pageCount": 4
+  },
+  {
+   "id": "ds-neu",
+   "title": "Sound Neutralizer",
+   "doc": "MKT-0066",
+   "match": "^NEU",
+   "section": "datasheets",
+   "pageCount": 3
+  },
+  {
+   "id": "ds-flanges",
+   "title": "Valve Flanges",
+   "doc": "MKT-0061",
+   "match": "-SF[BDI](-|$|\\s)|^SF[BDI]",
+   "section": "datasheets",
+   "pageCount": 3
+  },
+  {
+   "id": "ds-drawband",
+   "title": "Drawband Clamps",
+   "doc": "MKT-0049",
+   "match": "^(DBK|VIT)|^(PV[SE]|EXV|MAV|CEV|TEV|TSV|BSV|BEV)[A-Z]|^(PVUX|C2UX|TXUX|BXUX)",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-heresite",
+   "title": "Heresite Phenolic Coating",
+   "doc": "Heresite bulletin",
+   "match": "^(PV[SE]|EXV|MAV|CEV|TEV|TSV|BSV|BEV)[B-Z]",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-psh500a",
+   "title": "PSH500A Control Transformer",
+   "doc": "Functional Devices PSH500A",
+   "match": "^(PSH|PSC|WPS)|TXFMR",
+   "section": "datasheets",
+   "pageCount": 3
+  },
+  {
+   "id": "ds-fhd500",
+   "title": "FHD500 Fume Hood Display",
+   "doc": "MKT-0510 Rev A (02.2024)",
+   "match": "^FHD5",
+   "section": "datasheets",
+   "pageCount": 6
+  },
+  {
+   "id": "ds-fhd",
+   "title": "Fume Hood Display",
+   "doc": "MKT-0377",
+   "match": "^FHD(?!5)",
+   "section": "datasheets",
+   "pageCount": 9
+  },
+  {
+   "id": "ds-sash",
+   "title": "Sash Sensors",
+   "doc": "MKT-0070",
+   "match": "^(VSS|HSS|CSS)",
+   "section": "datasheets",
+   "pageCount": 16
+  },
+  {
+   "id": "ds-zps",
+   "title": "ZPS500 Zone Presence Sensor",
+   "doc": "MKT-0548 Rev A (01.2026)",
+   "match": "^ZPS",
+   "section": "datasheets",
+   "pageCount": 8
+  },
+  {
+   "id": "ds-rpi",
+   "title": "Room Pressure Indicator (RPI)",
+   "doc": "MKT-0488 Rev B (03.2023)",
+   "match": "^RPI",
+   "section": "datasheets",
+   "pageCount": 7
+  },
+  {
+   "id": "ds-apm500",
+   "title": "APM500 Advanced Pressure Monitor",
+   "doc": "MKT-0552",
+   "match": "^APM5",
+   "section": "datasheets",
+   "pageCount": 6
+  },
+  {
+   "id": "ds-apm2",
+   "title": "APM2 Central Display, BACnet",
+   "doc": "650-321-014",
+   "match": "^APM2",
+   "section": "datasheets",
+   "pageCount": 9
+  },
+  {
+   "id": "ds-tdu",
+   "title": "View Touch Screen Monitor",
+   "doc": "MKT-0366",
+   "match": "^TDU",
+   "section": "datasheets",
+   "pageCount": 8
+  },
+  {
+   "id": "ds-pci9000",
+   "title": "PCI9000 Integrator",
+   "doc": "MKT-0543 Rev A (01.2026)",
+   "match": "^PCI9",
+   "section": "datasheets",
+   "pageCount": 9
+  },
+  {
+   "id": "ds-pci-io",
+   "title": "PCI I/O Module",
+   "doc": "MKT-0431 Rev A (01.2026)",
+   "match": "^PCI\\w*-?IO|^PIO|I/O MOD",
+   "section": "datasheets",
+   "pageCount": 14
+  },
+  {
+   "id": "ds-pts102",
+   "title": "PTS102 Duct Temperature Sensor",
+   "doc": "MKT-0235",
+   "match": "^PTS102",
+   "section": "datasheets",
+   "pageCount": 3
+  },
+  {
+   "id": "ds-th",
+   "title": "Temperature & Humidity Sensors (PTS300 / PCS300)",
+   "doc": "MKT-0165",
+   "match": "^(PTS|PCS)3\\d\\d",
+   "section": "datasheets",
+   "pageCount": 13
+  },
+  {
+   "id": "ds-pcs405",
+   "title": "PCS Combination Sensor",
+   "doc": "MKT-0442",
+   "match": "^PCS405",
+   "section": "datasheets",
+   "pageCount": 3
+  },
+  {
+   "id": "ds-pcs400d",
+   "title": "PCS400-D Duct Humidity Sensor",
+   "doc": "MKT-0454",
+   "match": "^PCS400-D",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-pcs400r",
+   "title": "PCS400-R Combination Sensor",
+   "doc": "MKT-0450 Rev A (03.2024)",
+   "match": "^PCS400-R",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-pvc400",
+   "title": "PVC400-HW Power Supply",
+   "doc": "MKT-0466",
+   "match": "^PVC4",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-aci-dat",
+   "title": "ACI A/CP Duct Temperature Sensor",
+   "doc": "ACI A/CP-D-8-GD",
+   "match": "^A/CP",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-aci-th",
+   "title": "ACI Duct Temperature & Humidity Sensor",
+   "doc": "ACI T&H duct",
+   "match": "^A/RH|^A/.*RH",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-bapi-10k",
+   "title": "BAPI BA/10K Wall Temperature Sensor",
+   "doc": "BAPI BA10K-2-BQ80L8-N-CG",
+   "match": "^BA/10K|^BA10K",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-bapi-hqf",
+   "title": "BAPI Wall Temperature & Humidity Sensor",
+   "doc": "BAPI BAHQF",
+   "match": "HQF",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-te-wss",
+   "title": "Wash Down Wall Sensor (TE WSS)",
+   "doc": "TE WSS Series",
+   "match": "^WSS|WASH\\s*DOWN",
+   "section": "datasheets",
+   "pageCount": 1
+  },
+  {
+   "id": "ds-wall-switch",
+   "title": "Wall Switch",
+   "doc": "MKT-0073",
+   "match": "^WSP",
+   "section": "datasheets",
+   "pageCount": 4
+  },
+  {
+   "id": "ds-door-switch",
+   "title": "Door Switch MET-200",
+   "doc": "MET-200",
+   "match": "MET-?200",
+   "section": "datasheets",
+   "pageCount": 2
+  }
+ ]
+}
