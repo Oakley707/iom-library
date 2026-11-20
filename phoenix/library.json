@@ -1,7 +1,7 @@
 {
  "vendor": "phoenix",
  "maker": "Phoenix Controls",
- "updated": "2026-11-10",
+ "updated": "2026-11-20",
  "ioms": [
   {
    "id": "ds-mech",
@@ -68,6 +68,14 @@
    "pageCount": 17
   },
   {
+   "id": "ds-smartact",
+   "title": "SMART Actuator",
+   "doc": "SMART Actuator Product Data Sheet",
+   "match": "^B[SE]V\\w*-[ALS]T",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
    "id": "ds-pbc",
    "title": "Programmable BACnet Controller (PBC)",
    "doc": "PBC Datasheet",
@@ -111,7 +119,15 @@
    "id": "ds-heresite",
    "title": "Heresite Phenolic Coating",
    "doc": "Heresite bulletin",
-   "match": "^(PV[SE]|EXV|MAV|CEV|TEV|TSV|BSV|BEV)[B-Z]",
+   "match": "^(PV[SE]|EXV|MAV|CEV|TEV|TSV|BSV|BEV)[BC]",
+   "section": "datasheets",
+   "pageCount": 2
+  },
+  {
+   "id": "ds-pvdf",
+   "title": "Valve Coatings, Class D (PVDF)",
+   "doc": "Phoenix valve materials & coatings letter (05/09/16)",
+   "match": "^(PV[SE]|EXV|MAV|CEV|TEV|TSV|BSV|BEV)D",
    "section": "datasheets",
    "pageCount": 2
   },
