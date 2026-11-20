@@ -125,9 +125,9 @@
   },
   {
    "id": "ds-pvdf",
-   "title": "Valve Coatings, Class D (PVDF)",
+   "title": "Valve Coatings, Class C & D",
    "doc": "Phoenix valve materials & coatings letter (05/09/16)",
-   "match": "^(PV[SE]|EXV|MAV|CEV|TEV|TSV|BSV|BEV)D",
+   "match": "^(PV[SE]|EXV|MAV|CEV|TEV|TSV|BSV|BEV)[CD]",
    "section": "datasheets",
    "pageCount": 2
   },
